@@ -1,7 +1,6 @@
 .place__content-container {
     margin: 0;
     padding: 0;
-    border: 1px solid green;
 }
 
 @media screen and (max-width: 450px) {

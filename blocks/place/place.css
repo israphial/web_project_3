@@ -4,11 +4,6 @@
 @import url(__paragraph/place__paragraph.css);
 @import url(__title/place__title.css);
 @import url(__url-heading/place__url-heading.css);
-@import url(__website/place__website.css);
-
-
-
-/* li elements for the ul block "places" */
 
 .place {
     display: grid;

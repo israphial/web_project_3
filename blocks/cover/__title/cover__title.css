@@ -8,7 +8,6 @@
     margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px; /*keeps the title away from the edges around weird spots such as 525px width*/
-    z-index: 2;
 }
 
 @media screen and (max-width: 350px) { /*Did this breakpoint a little above 320px on purpose, as it looks bad if the break isn't until 320*/

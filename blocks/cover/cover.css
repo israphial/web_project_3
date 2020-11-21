@@ -3,7 +3,6 @@
 @import url(__title/cover__title.css);
 
 .cover {
-    border: 1px solid green;
     width: calc(100% - (48px * 2));
     margin-bottom: 92px;
     position: relative;

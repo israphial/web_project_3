@@ -7,7 +7,6 @@
     padding-top: 34px;
     padding-bottom: 58px;
     max-width: calc(100% - (148px * 2));
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
