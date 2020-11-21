@@ -9,16 +9,13 @@
     list-style: none;
     justify-content: center;
     grid-gap: 16px;
-    grid-template-columns: repeat(4, minmax(230px, 1fr));
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
 }
 
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
         grid-gap: 14px;
-        grid-template-columns: repeat(3, minmax(230px, 1fr));
-        grid-template-rows: repeat(4, 1fr);
     }
 }
 
@@ -27,16 +24,12 @@
         width: calc(100% - (2 * 24px));
         grid-gap: 16px;
         margin-bottom: 88px;
-        grid-template-columns: repeat(2, minmax(200px, 1fr));
-        grid-template-rows: repeat(6, 1fr);
     }
 }
 
 @media screen and (max-width: 430px) {
     .photo-grid {
         width: calc(100% - (2 * 16px)); /*looks better to me if this is done around 430px instead of when the width is even smaller, things get too crammed too quickly*/
-        grid-template-columns: repeat(1, minmax(200px, 1fr));
-        grid-template-rows: repeat(12, 1fr);
     }
 }
 

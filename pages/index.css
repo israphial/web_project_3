@@ -18,6 +18,7 @@
 @import url(/blocks/place/__paragraph/_small/place__paragraph_small.css); /*modifier for secondary paragraph with smaller font styles*/
 @import url(/blocks/cover/cover.css);
 @import url(/blocks/footer/footer.css);
+@import url(/blocks/transparent-link/transparent-link.css); /*Mix to add transparent hover effect to all clickable elements*/
 
 
 /* .test {

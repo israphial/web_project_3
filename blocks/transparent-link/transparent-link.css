@@ -1,0 +1,7 @@
+/* This is a mix to make all links get some transparency when being hovered over. I am including the lang__link elements in this,
+even though they don't actually go anywhere. If this site were more fleshed out, those would be interactive buttons and I want them
+to act like any other "clickable" on the page.*/
+
+.transparent-link:hover {
+    opacity: 0.8;
+}
