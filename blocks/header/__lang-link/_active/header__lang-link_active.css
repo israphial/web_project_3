@@ -1,0 +1,5 @@
+/* modifier to underline the "En" __lang-link element */
+
+.header__lang-link_active {
+    text-decoration: underline;
+}

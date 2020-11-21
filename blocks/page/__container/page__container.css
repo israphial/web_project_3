@@ -1,0 +1,6 @@
+.page__container {
+    max-width: 1280px;
+    min-width: 320px; /*container tries to shrink at small resolutions, trying to fix that using this*/
+    margin: 0 auto;
+    border: 1px solid cyan;
+}

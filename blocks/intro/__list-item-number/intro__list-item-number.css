@@ -1,0 +1,5 @@
+/* this is for the spans that are around each number in the list elements, and it reduces their boldness a bit */
+
+.intro__list-item-number {
+    font-weight: 400;
+}

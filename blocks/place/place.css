@@ -1,0 +1,44 @@
+@import url(__content-container/place__content-container.css);
+@import url(__image/place__image.css);
+@import url(__link/place__link.css);
+@import url(__paragraph/place__paragraph.css);
+@import url(__title/place__title.css);
+@import url(__url-heading/place__url-heading.css);
+@import url(__website/place__website.css);
+
+
+
+/* li elements for the ul block "places" */
+
+.place {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px; /*change this with media queries?*/
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-gap: 28px;
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-bottom: 49px;
+    }
+}
