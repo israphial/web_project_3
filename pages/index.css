@@ -1,18 +1,18 @@
-@import url(/vendor/normalize.css);
-@import url(/vendor/fonts/fonts.css);
-@import url(/blocks/page/page.css);
-@import url(/blocks/header/header.css);
-@import url(/blocks/header/__lang-link/_active/header__lang-link_active.css); /*modifier for underlined lang link*/
-@import url(/blocks/logo/logo.css);
-@import url(/blocks/link-container/link-container.css);
-@import url(/blocks/content/content.css);
-@import url(/blocks/lead/lead.css);
-@import url(/blocks/intro/intro.css);
-@import url(/blocks/intro/__text/_secondary/intro__text_secondary.css); /*modifier for second/secondary paragraph*/
-@import url(/blocks/photo-grid/photo-grid.css);
-@import url(/blocks/places/places.css);
-@import url(/blocks/place/place.css);
-@import url(/blocks/place/__paragraph/_small/place__paragraph_small.css); /*modifier for secondary paragraph with smaller font styles*/
-@import url(/blocks/cover/cover.css);
-@import url(/blocks/footer/footer.css);
-@import url(/blocks/transparent-link/transparent-link.css); /*Mix to add transparent hover effect to all clickable elements*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css); /*modifier for underlined lang link*/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/link-container/link-container.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/_secondary/intro__text_secondary.css); /*modifier for second/secondary paragraph*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__paragraph/_small/place__paragraph_small.css); /*modifier for secondary paragraph with smaller font styles*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/transparent-link/transparent-link.css); /*Mix to add transparent hover effect to all clickable elements*/
