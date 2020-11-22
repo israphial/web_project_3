@@ -48,9 +48,9 @@
 
 @media screen and (max-width: 320px) {
     .cover__link {
-        min-height: 320px;
+        min-height: 300px;
     }
     .cover__link::after {
-        min-height: 320px;
+        min-height: 300px;
     }
 }
