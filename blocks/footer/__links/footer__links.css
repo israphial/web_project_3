@@ -6,14 +6,11 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 211px;
 }
 
 @media screen and (max-width: 450px) { /*Changed this early to make it look better at lower resolutions before reaching the 320 threshold*/
     .footer__links {
         flex-direction: column;
-        height: 198px;
         margin-bottom: 48px;
-        width: 168px;
     }
 }

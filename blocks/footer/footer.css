@@ -1,3 +1,4 @@
+@import url(__navigation/footer__navigation.css);
 @import url(__links/footer__links.css);
 @import url(__link/footer__link.css);
 @import url(__copyright/footer__copyright.css);
@@ -6,20 +7,19 @@
     display: flex;
     margin: 0 auto;
     padding: 0;
-    min-width: calc(100% - (48px * 2));
+    width: calc(100% - (48px * 2));
     margin-bottom: 24px;
     justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        min-width: calc(100% - (24px * 2));
+        width: calc(100% - (24px * 2));
     }
 }
 
 @media screen and (max-width: 450px) { /*Changed this earlier than 320px to make it look better at middle-ground resolutions*/
     .footer {
-        min-width: 168px;
         display: block;
         margin-left: 16px;
     }
