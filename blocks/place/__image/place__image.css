@@ -1,6 +1,5 @@
 .place__image {
     width: 100%;
-    max-width: 440px;
     object-fit: contain;
     grid-area: image;
     padding-top: 8px; /*keeping the top of the image level with the text, which is being pushed downward a bit by line-height*/

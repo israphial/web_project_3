@@ -2,9 +2,13 @@
     grid-area: website;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 550px) {
     .place__website-grid-container {
         display: none;
     }
