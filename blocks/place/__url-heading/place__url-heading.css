@@ -8,6 +8,7 @@
     margin-top: 30px;
     margin-bottom: 12px;
     padding: 0;
+    grid-area: website;
 }
 
 
@@ -16,7 +17,7 @@
         margin-top: 0;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .place__url-heading {
         display: none;
     }

@@ -1,0 +1,5 @@
+.place__description-grid-container {
+    grid-area: description;
+    margin: 0;
+    padding: 0;
+}

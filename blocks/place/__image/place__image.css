@@ -1,4 +1,13 @@
 .place__image {
     width: 100%;
+    max-width: 440px;
     object-fit: contain;
+    grid-area: image;
+    padding-top: 8px; /*keeping the top of the image level with the text, which is being pushed downward a bit by line-height*/
 }
+
+@media screen and (max-width: 450px) {
+    .place__image {
+        padding-top: 0; /*removing it to keep the spacing between elements correct; it isn't necessary at this layout*/
+    }
+} 
