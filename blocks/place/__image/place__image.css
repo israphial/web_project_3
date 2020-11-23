@@ -3,6 +3,19 @@
     object-fit: contain;
     grid-area: image;
     padding-top: 8px; /*keeping the top of the image level with the text, which is being pushed downward a bit by line-height*/
+    min-width: 460px; /*Without restricting the width of these images, they cause major issues with the layout at certain resolutions. It's not an ideal solution, but it keeps everything normalized.*/
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        min-width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        min-width: 340px;
+    }
 }
 
 @media screen and (max-width: 450px) {

@@ -29,7 +29,7 @@
     }    
 }
 
-@media screen and (max-width: 550px) { /*Moved this up a bit in width, want to give tablets a more "cinematic" view*/
+@media screen and (max-width: 650px) { /*Moved this up a bit in width, want to give tablets a more "cinematic" view*/
     .place {
         grid-template-areas:
         "title"
