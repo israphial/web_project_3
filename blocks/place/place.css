@@ -26,7 +26,7 @@
 @media screen and (max-width: 768px) {
     .place {
         margin-bottom: 72px;
-    }    
+    }
 }
 
 @media screen and (max-width: 650px) { /*Moved this up a bit in width, want to give tablets a more "cinematic" view*/
