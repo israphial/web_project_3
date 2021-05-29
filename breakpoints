@@ -1,8 +1,0 @@
-The media breakpoints I'll start with:
-
-base: 1024 to 1280 and higher res for laptops, desktops, UW, etc
-tablets: 768px - 1024px
-large smartphones to mid-size tablets: 425px - 768px 
-small and normal smartphones: 320px - 425px
-
-widths to test with: 
